@@ -16,6 +16,7 @@ body {
 
 /* HEADER */
 
+
 /* header {
     background-color: rgba(47, 62, 70, 1);
     width: 100%;
@@ -26,7 +27,9 @@ body {
     top: 0;
 } */
 
+
 /* partie steph 1 */
+
 header {
     background-color: rgba(47, 62, 70, 1);
 }
@@ -35,26 +38,28 @@ header {
     font-family: Halant-Regular;
     color: white;
 }
+
 .nav-link:hover {
     font-family: Halant-Regular;
     color: white;
     background-color: rgba(82, 121, 111, 1);
 }
+
 .navbar-toggler {
-   color: rgb(255, 255, 255);
-   text-align: right;
-  
+    color: rgb(255, 255, 255);
+    text-align: right;
 }
+
 .navbar-nav {
     display: flex;
-    width:100%;
-    justify-content:space-around;
+    width: 100%;
+    justify-content: space-around;
     font-size: 1.4em;
 }
+
 .navbar-nav li {
     color: white;
 }
-
 
 #logo {
     text-align: center;
@@ -67,14 +72,17 @@ header {
     height: auto;
 }
 
+
 /* fin partie steph 1 */
+
+
 /* partie steph 2*/
 
 button {
     background-color: rgba(88, 129, 87, 1);
     font-size: 20px;
     color: white;
-     text-align: center;
+    text-align: center;
 }
 
 button:hover {
@@ -84,12 +92,17 @@ button:hover {
     align-items: center;
     transition-duration: 700ms;
 }
+
 .container-fluid {
     background-color: rgba(58, 90, 64, 0.5);
 }
+
 .card-img {
-    height:80%;
+    height: 80%;
 }
+
+
+/* fin partie 2 steph */
 
 .image {
     width: 100%;
@@ -98,8 +111,8 @@ button:hover {
     border: 2px solid rgba(47, 62, 70, 1);
     padding: 8px;
 }
-/ fin partie steph 2*/
-.headervideo{
+
+.headervideo {
     width: 100%;
     overflow: hidden;
 }
@@ -113,25 +126,38 @@ h1 {
     font-family: Halant-Regular;
     font-size: 50px;
 }
+
+
 /*carousel Lydie*/
-.carousel-inner{
-    width:100%;
+
+.carousel-inner {
+    width: 100%;
 }
-.container1{
-    background-color:#9CAC9F;
+
+.container1 {
+    background-color: #9CAC9F;
     font-family: "NunitoSans-Light";
 }
-#carousel-content{
-    height:20%;
+
+#carousel-content {
+    height: 20%;
 }
-#carouselExampleControls{
-    height:20%;
+
+#carouselExampleControls {
+    height: 20%;
 }
+
+
 /*fin carousel Lydie*/
+
+
 /*page évenements*/
-.card-img-top{
-    height:300px;
+
+.card-img-top {
+    height: 300px;
 }
+
+
 /*fin page événements*/
 
 .presentation {
@@ -469,13 +495,10 @@ li {
 #contactTitle {
     margin-top: 20px;
     color: white;
-    font-weight: bold;
-    font-family: Halant-Regular;
 }
 
 .fontContainerContact {
     font-size: 1.3em;
-    font-family: Halant-Regular;
 }
 
 #contactContainer {
