@@ -16,7 +16,7 @@ body {
 
 /* HEADER */
 
-header {
+/* header {
     background-color: rgba(47, 62, 70, 1);
     width: 100%;
     position: sticky;
@@ -24,49 +24,37 @@ header {
     margin: 0px;
     padding: 0px;
     top: 0;
-}
+} */
 
-.onglet {
-    font-family: Halant-Regular;
-    color: white;
+/* partie steph 1 */
+header {
     background-color: rgba(47, 62, 70, 1);
-    height: 10px;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 5px;
-    border-radius: 5px;
 }
 
-.onglet:hover {
+.nav-link {
     font-family: Halant-Regular;
     color: white;
-    text-decoration: none;
+}
+.nav-link:hover {
+    font-family: Halant-Regular;
+    color: white;
     background-color: rgba(82, 121, 111, 1);
-    border-style: none;
-    transition-duration: 700ms;
 }
-
-#navCtn {
-    display: grid;
-    grid-template-columns: 1fr;
+.navbar-toggler {
+   color: rgb(255, 255, 255);
+   text-align: right;
+  
 }
-
-.nav {
+.navbar-nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: rgba(47, 62, 70, 1);
+    width:100%;
+    justify-content:space-around;
+    font-size: 1.4em;
+}
+.navbar-nav li {
+    color: white;
 }
 
-#menuBurguerCtn {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-#navIcon {
-    display: none;
-}
 
 #logo {
     text-align: center;
@@ -79,10 +67,39 @@ header {
     height: auto;
 }
 
+/* fin partie steph 1 */
+/* partie steph 2*/
 
-/* VIDEO */
+button {
+    background-color: rgba(88, 129, 87, 1);
+    font-size: 20px;
+    color: white;
+     text-align: center;
+}
 
-.headervideo {
+button:hover {
+    background-color: rgba(163, 177, 138, 1);
+    border: rgba(47, 62, 70, 1);
+    border-style: solid 2px;
+    align-items: center;
+    transition-duration: 700ms;
+}
+.container-fluid {
+    background-color: rgba(58, 90, 64, 0.5);
+}
+.card-img {
+    height:80%;
+}
+
+.image {
+    width: 100%;
+    height: 90%;
+    z-index: 1;
+    border: 2px solid rgba(47, 62, 70, 1);
+    padding: 8px;
+}
+/ fin partie steph 2*/
+.headervideo{
     width: 100%;
     overflow: hidden;
 }

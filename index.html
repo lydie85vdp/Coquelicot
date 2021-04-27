@@ -14,21 +14,36 @@
 
 <body>
     <header>
-        <div id="logo">
+        <div id="logo" class="row-5 col-12">
             <img src="assets/png/logofinal.png">
         </div>
-        <div id="navCtn">
-            <ul class="nav">
-                <li><a class="onglet" href="#">Accueil</a></li>
-                <li><a class="onglet" href="#">La Boutique</a></li>
-                <li><a class="onglet" href="#">Nos Compositions</a></li>
-                <li><a class="onglet" href="#">Evenements</a></li>
-                <li><a class="onglet" href="../coquelicot-master/contact.html">Nous Contacter</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler navbar-dark navbar-right offset-11" type="button" data-toggle="collapse" data-target="#navbarToggleContent" aria-controls="navbarToggleContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarToggleContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">La boutique</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="compositions.html">
+               Nos Compositions
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html" >Evenements</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html" >Nous Contacter</a>
+              </li>
+          </ul>
         </div>
-        <div id="menuBurguerCtn">
-            <i class="fas fa-bars" id="navIcon"></i>
-        </div>
+    </nav>
         <hr id="line">
     </header>
 
@@ -52,7 +67,7 @@
 
     <div id="gallerySquare">
         <div>Galerie Photos</div>
-        <hr>
+        
         <div class="center">
             <div class="sizeAjust">
                 <section class="carousel" aria-label="Gallery">
