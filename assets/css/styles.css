@@ -1,0 +1,410 @@
+@font-face {
+font-family: "Halant-Regular";
+src: url(../polices/Halant-Regular.ttf);}
+
+
+@font-face {
+font-family: "NunitoSans-Light";
+src: url(../polices/NunitoSans-Light.ttf);
+}
+header{
+    background-color: rgba(47, 62, 70, 1);
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.onglet{
+    font-family: Halant-Regular;
+    color: white;
+    background-color:rgba(47, 62, 70, 1);
+    height: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.onglet:hover{
+    font-family: Halant-Regular;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(82, 121, 111, 1);
+    border-style:none;
+    transition-duration: 700ms;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(47, 62, 70, 1);
+}
+#navIcon{
+    display: none;
+}
+#logo{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}   
+#logo img{ 
+    width:170px;
+    height:auto; 
+}
+.headervideo{
+    width: 100%;
+    overflow: hidden;
+}
+video{
+    width: 100%;
+}
+h1{
+    color:  rgba(47, 62, 70, 1);
+    font-family: Halant-Regular;
+    font-size: 50px;
+}
+/*carousel Lydie*/
+.carousel-inner{
+    width:100%;
+}
+.container1{
+    background-color:rgba(82,121,111,1);
+    font-family: NunitoSans-Light;
+}
+#carousel-content{
+    height:20%;
+}
+#carouselExampleControls{
+    height:20%;
+}
+/*fin carousel Lydie*/
+/*page évenements*/
+.card-img-top{
+    height:300px;
+}
+/*fin page événements*/
+
+.presentation{
+    position: absolute;
+    width:100%;
+    margin:0px;
+    z-index: 1;
+    opacity: 30;
+    display:flex;
+    flex-direction:column ;
+    justify-content:center;
+    align-items: center;
+}
+
+#feuille{
+    width: 70px;
+    height: 70px;
+}
+.intro{
+    font-family: NunitoSans-Light;
+    font-size: 16px;
+    color: white;
+    background-color:rgba(47, 62, 70, 1) ;
+    padding: 10px;
+    width: 45%;
+    opacity: 0.7;
+}
+.mainphotos{
+    display: grid;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    grid-template-columns: 50% 20% 50% ;
+    grid-template-rows: 36% 20% 36%;    
+    margin-left: 20%;
+    margin-right: 30%;
+}
+.compos{
+    grid-column: 3;
+    grid-row: 1;
+}
+.boutique{
+    grid-column: 1;
+    grid-row: 1;
+}
+.evenement{
+    grid-column: 1;
+    grid-row: 3;
+}
+.contact{
+    grid-column: 3;
+    grid-row: 3;
+}
+    
+button{
+    background-color: rgba(88, 129, 87, 1);
+    font-family: Halant-Regular;
+    font-size: 20px;
+    color: white;
+    border-style: none;
+    opacity: 45%;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    z-index: 2;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 1px;
+    margin-top: -60px;
+}
+
+button:hover{
+    background-color:rgba(163, 177, 138, 1) ;
+    border: rgba(47, 62, 70, 1);
+    border-style: solid 2px;
+    align-items: center;
+    transition-duration: 700ms;
+}
+    
+.image{
+    width:100%;
+    height: 100%;
+    z-index: 1;
+    border: 2px solid rgba(47, 62, 70, 1);
+    padding: 8px;
+}
+
+#laboutique{
+margin-left: 38%;
+margin-right: 38%;
+}
+
+#nouscontacter{
+margin-left: 34%;
+margin-right: 34%;
+}
+
+#partThree{
+background-color: rgba(202, 210, 197, 1);
+}
+
+#gallerySquare{
+background-color: rgba(58, 90, 64, 0.5);
+height: 100%;
+width: 100%;
+text-align: center;
+color: white;
+font-family: " Halant-Regular";
+font-size: 25px;
+padding: 50px;
+}
+
+
+@keyframes tonext {
+    75% {
+        left: 0;
+    }
+
+    95% {
+        left: 100%;
+    }
+
+    98% {
+        left: 100%;
+    }
+
+    99% {
+        left: 0;
+    }
+}
+
+@keyframes tostart {
+    75% {
+        left: 0;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    98% {
+        left: -300%;
+    }
+
+    99% {
+        left: 0;
+    }
+}
+
+@keyframes snap {
+    96% {
+        scroll-snap-align: center;
+    }
+
+    97% {
+        scroll-snap-align: none;
+    }
+
+    99% {
+        scroll-snap-align: none;
+    }
+
+    100% {
+        scroll-snap-align: center;
+    }
+}
+
+body{
+max-width: 100%;
+margin: 0 auto;
+/*padding: 0 1.25rem;*/
+font-family: 'Lato', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    scrollbar-color: transparent transparent;
+    /* thumb and track color */
+    scrollbar-width: 0px;
+}
+
+
+*::-webkit-scrollbar {
+    width: 0;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+}
+
+* {
+    -ms-overflow-style: none;
+}
+
+
+/* @media (hover: hover) {
+    .carousel__snapper {
+        animation-name: tonext, snap;
+        animation-timing-function: ease;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    .carousel__slide:last-child .carousel__snapper {
+        animation-name: tostart, snap;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .carousel__snapper {
+        animation-name: none;
+    }
+} */
+
+.sizeAjust {
+    width: 50%;
+
+    padding-top: 8%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: rgb(47, 62, 70);
+    color: white;
+    height: 200px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "NunitoSans-Light";
+
+}
+
+.liste{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+li {
+    padding: 5px;
+}
+
+/* img {
+    height: auto;
+    width: auto;
+    padding: 10px;
+} */
+
+.title {
+    font-family: " Halant-Regular";
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon img {
+    text-align: center;
+   width: 60px;
+   height: 60px;
+
+}
+
+
+.services {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 13px;
+}
+
+.infomation {
+    text-align: left;
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.copyright {
+    text-align: center;
+    opacity: 0.3;
+    font-size: 13px;
+}
+
+
+@media screen and (max-width: 680px) {
+
+    .carousel::before,
+    .carousel::after {
+        height: 20px;
+        width: 20px;
+   }
+   .carousel__navigation-button{
+    height: 20px;
+    width: 20px;
+   }
+   #navIcon{
+    display: block;}
+    .onglet{display: none;
+    }
+    .intro{display:none;}
+    .mainphotos{display: flex;
+        flex-direction:column;
+        padding-left: 30px;}
+    
+        
+}
