@@ -135,7 +135,7 @@ h1 {
     width: 100%;
 }
 
-.container1 {
+.ctn {
     background-color: #9CAC9F;
     font-family: "NunitoSans-Light";
 }
@@ -146,9 +146,6 @@ h1 {
 
 #carouselExampleControls {
     height: 20%;
-}
-.d-block{
-    height:80vh;
 }
 
 /*fin carousel Lydie*/
